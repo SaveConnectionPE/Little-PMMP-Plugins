@@ -1,0 +1,15 @@
+name: ClearChat
+api: [3.0.0, 4.0.0]
+author: SaveConnection
+main: SaveConnection\ClearChat
+
+commands:
+  clearchat:
+    description: "Lösche den Chat!"
+    usage: "/clearchat"
+   
+   
+permissions:
+  cc.use:
+    default: op
+    description: "Allows to execute /clearchat !"
